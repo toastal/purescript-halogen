@@ -5,12 +5,19 @@
         <meta charset="UTF-8">
         <title>Concepts Reference - Halogen Guide</title>
         
+        
+
+
+        <!-- Custom HTML head -->
+        
+
 
         <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="theme-color" content="#ffffff" />
 
+        <link rel="icon" href="../favicon.svg">
         <link rel="shortcut icon" href="../favicon.png">
         <link rel="stylesheet" href="../css/variables.css">
         <link rel="stylesheet" href="../css/general.css">
@@ -19,8 +26,9 @@
 
         <!-- Fonts -->
         <link rel="stylesheet" href="../FontAwesome/css/font-awesome.css">
-        <link href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" rel="stylesheet" type="text/css">
-        <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:500" rel="stylesheet" type="text/css">
+        
+        <link rel="stylesheet" href="../fonts/fonts.css">
+        
 
         <!-- Highlight.js Stylesheets -->
         <link rel="stylesheet" href="../highlight.css">
@@ -36,7 +44,7 @@
         <!-- Provide site root to javascript -->
         <script type="text/javascript">
             var path_to_root = "../";
-            var default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "light" : "light";
+            var default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "navy" : "light";
         </script>
 
         <!-- Work around some values being stored in localStorage wrapped in quotes -->
@@ -81,7 +89,7 @@
 
         <nav id="sidebar" class="sidebar" aria-label="Table of contents">
             <div class="sidebar-scrollbox">
-                <ol class="chapter"><li class="chapter-item expanded affix "><a href="../guide/index.html">Introduction</a></li><li class="chapter-item expanded affix "><a href="../guide/01-Rendering-Halogen-HTML.html">Rendering Halogen HTML</a></li><li class="chapter-item expanded affix "><a href="../guide/02-Introducing-Components.html">Introducing Components</a></li><li class="chapter-item expanded affix "><a href="../guide/03-Performing-Effects.html">Performing Effects</a></li><li class="chapter-item expanded affix "><a href="../guide/04-Lifecycles-Subscriptions.html">Lifecycles Subscriptions</a></li><li class="chapter-item expanded affix "><a href="../guide/05-Parent-Child-Components.html">Parent Child Components</a></li><li class="chapter-item expanded affix "><a href="../guide/06-Running-Application.html">Running Application</a></li><li class="chapter-item expanded affix "><a href="../guide/07-Next-Steps.html">Next Steps</a></li><li class="chapter-item expanded affix "><a href="../concepts-reference/index.html" class="active">Concepts Reference</a></li><li class="chapter-item expanded affix "><a href="../changelog/v5.html">V5 Changes</a></li></ol>
+                <ol class="chapter"><li class="chapter-item expanded "><a href="../index.html"><strong aria-hidden="true">1.</strong> Halogen</a></li><li class="chapter-item expanded "><a href="../guide/index.html"><strong aria-hidden="true">2.</strong> Guide</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../guide/01-Rendering-Halogen-HTML.html"><strong aria-hidden="true">2.1.</strong> Rendering Halogen HTML</a></li><li class="chapter-item expanded "><a href="../guide/02-Introducing-Components.html"><strong aria-hidden="true">2.2.</strong> Introducing Components</a></li><li class="chapter-item expanded "><a href="../guide/03-Performing-Effects.html"><strong aria-hidden="true">2.3.</strong> Performing Effects</a></li><li class="chapter-item expanded "><a href="../guide/04-Lifecycles-Subscriptions.html"><strong aria-hidden="true">2.4.</strong> Lifecycles &amp; Subscriptions</a></li><li class="chapter-item expanded "><a href="../guide/05-Parent-Child-Components.html"><strong aria-hidden="true">2.5.</strong> Parent &amp; Child Components</a></li><li class="chapter-item expanded "><a href="../guide/06-Running-Application.html"><strong aria-hidden="true">2.6.</strong> Running Application</a></li><li class="chapter-item expanded "><a href="../guide/07-Next-Steps.html"><strong aria-hidden="true">2.7.</strong> Next Steps</a></li></ol></li><li class="chapter-item expanded "><a href="../concepts-reference/index.html" class="active"><strong aria-hidden="true">3.</strong> Concepts Reference</a></li><li class="chapter-item expanded "><a href="../changelog/index.html"><strong aria-hidden="true">4.</strong> Major Version Changelog</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../changelog/v5.html"><strong aria-hidden="true">4.1.</strong> Changes in v5</a></li></ol></li></ol>
             </div>
             <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
         </nav>
@@ -162,7 +170,7 @@
                         
 
                         
-                            <a rel="next" href="../changelog/v5.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                            <a rel="next" href="../changelog/index.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
                                 <i class="fa fa-angle-right"></i>
                             </a>
                         
@@ -180,7 +188,7 @@
                 
 
                 
-                    <a rel="next" href="../changelog/v5.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                    <a rel="next" href="../changelog/index.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
                         <i class="fa fa-angle-right"></i>
                     </a>
                 
@@ -193,10 +201,10 @@
         
 
         
-        
+
         
         <script type="text/javascript">
-            window.playpen_copyable = true;
+            window.playground_copyable = true;
         </script>
         
 
